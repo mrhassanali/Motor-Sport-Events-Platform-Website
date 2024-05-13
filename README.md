@@ -5,14 +5,14 @@
 
 ## Design
 
-![App Screenshot](https://mir-s3-cdn-cf.behance.net/project_modules/1400/4fd011190671699.65be9dd0a8884.jpg)
+![Design](https://mir-s3-cdn-cf.behance.net/project_modules/1400/4fd011190671699.65be9dd0a8884.jpg)
 
 ## Run Locally
 
 Clone the project
 
 ```bash
-  git clone https://github.com/mrhassanali/law-firm.git
+  git clone https://github.com/mrhassanali/Motor-Sport-Events-Platform-Website.git
 ```
 
 Go to the project directory
@@ -45,7 +45,7 @@ Start the server
 
 ## Demo
 
-https://law-firm-two-sigma.vercel.app/
+[https://law-firm-two-sigma.vercel.app/](https://motor-sport-events-platform-website.vercel.app/)
 
 ## 🛠 Skills
 
