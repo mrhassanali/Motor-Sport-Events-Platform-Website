@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <>
       <section
-        className="h-[100vh] bg-cover bg-center bg-no-repeat relative"
+        className="h-[100vh] lg:h-[100vh] sm:h-[60vh] xs:h-[60vh] base:h-[90vh] bg-cover bg-center bg-no-repeat relative"
         style={{ backgroundImage: `url(${CarRacingImage})` }}
       >
         <div className="backdrop-blur-lg">
