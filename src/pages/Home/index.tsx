@@ -15,18 +15,19 @@ export default function Home() {
     if (tabs.active.id === 1) {
       dispatch(setGeneral(GeneralAdmission));
     }
-  }, [tabs]);
+  }, [tabs, dispatch]);
+
   return (
     <>
       <section
-        className="h-[100vh] lg:h-[100vh] sm:h-[60vh] xs:h-[60vh] base:h-[90vh] bg-cover bg-center bg-no-repeat relative"
+        className="bg-cover bg-center bg-no-repeat relative sm:h-screen base:h-[84vh]"
         style={{ backgroundImage: `url(${CarRacingImage})` }}
       >
         <div className="backdrop-blur-lg">
           <Header />
         </div>
         <Hero />
-        <div className="absolute top-16 right-4 hidden lg:block md:block">
+        <div className="absolute top-16 right-4 hidden md:block">
           <Timer />
         </div>
       </section>
@@ -45,7 +46,7 @@ export default function Home() {
 
       <Container>
         {tabs.active.id === 1 && (
-          <div className="grid grid-cols-3 md:grid-cols-3 sm:grid-cols-1 xs:grid-cols-1 base:grid-cols-1  mt-4 gap-10">
+          <div className="grid md:grid-cols-3 base:grid-cols-1 mt-4 gap-10">
             {general.map((item, index) => {
               return <Card data={item} key={index} />;
             })}
@@ -53,7 +54,7 @@ export default function Home() {
         )}
       </Container>
 
-      <div className="lg:hidden md:hidden ">
+      <div className="md:hidden ">
         <MobileMenu />
       </div>
     </>

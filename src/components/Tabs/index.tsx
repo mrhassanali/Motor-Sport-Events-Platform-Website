@@ -26,7 +26,7 @@ export default function Tabs() {
       icon: <HomeModernIcon className="w-6 h-6" />,
       name: "Camping",
       link: "#",
-      count: 6,
+      count: null,
       current: false,
     },
     {
@@ -34,7 +34,7 @@ export default function Tabs() {
       icon: <HeartIcon className="w-6 h-6 text-[#ff3830]" />,
       name: "Hospitality",
       link: "#",
-      count: 8,
+      count: null,
       current: false,
     },
     {
@@ -42,7 +42,7 @@ export default function Tabs() {
       icon: <ParkingSVG className="w-6 h-6" />,
       name: "Parking",
       link: "#",
-      count: 9,
+      count: null,
       current: false,
     },
   ]);

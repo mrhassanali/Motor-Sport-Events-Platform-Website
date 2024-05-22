@@ -13,10 +13,10 @@ export default function SignInSignout({ children }: SignInSignoutProps) {
       className="backdrop-blur-lg w-full h-[100vh] bg-slate-200 flex justify-center items-center bg-cover bg-center bg-no-repeat "
       style={{ backgroundImage: `url(${CarRacingImage})` }}
     >
-      <div className="rounded-lg bg-white text-black w-3/4 mx-auto md:w-4/5 sm:w-full xs:w-full base:w-full">
+      <div className="rounded-lg bg-white text-black w-3/4 mx-auto md:w-4/5 base:w-full">
         <div className="grid grid-cols-2 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 base:grid-cols-1">
           {/* border border-slate-500  */}
-          <div className="p-6 w-9/12 lg:w-9/12 md:w-full sm:w-8/12 xs:w-full base:w-full mx-auto">
+          <div className="p-6 lg:w-9/12 md:w-full sm:w-8/12 base:w-full mx-auto">
             {children}
           </div>
           {/* border border-slate-500 */}
