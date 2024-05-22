@@ -6,7 +6,7 @@ interface timerProps {
 }
 export default function Timer({ date }: timerProps) {
   return (
-    <div className="grid base:grid-cols-4 md:grid-cols-4 md:gap-x-4 base:gap-x-2 text-white text-center mt-1">
+    <div className="grid base:grid-cols-4 md:gap-x-4 base:gap-x-2 text-white text-center mt-1">
       <div className="border border-slate-100 rounded-lg p-2 sm:p-1">
         <span className="font-semibold md:text-[1.3rem] text-md">24</span>
         <h4 className="md:text-md base:text-sm">Days</h4>
